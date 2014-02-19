@@ -3,7 +3,7 @@
     
     "modified":     "http://purl.org/dc/terms/modified",
     "source":       "http://purl.org/dc/terms/source",
-    "type":         "http://purl.org/dc/terms/type"
+    "type":         "http://purl.org/dc/terms/type",
     "title":        "http://purl.org/dc/terms/title", 
     "alternative":  "http://purl.org/dc/terms/alternative",
     "creator":      "http://purl.org/dc/terms/creator",
