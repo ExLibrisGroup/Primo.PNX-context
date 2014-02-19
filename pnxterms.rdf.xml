@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY rdfns 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+    <!ENTITY rdfsns 'http://www.w3.org/2000/01/rdf-schema#'>
+    <!ENTITY dcns 'http://purl.org/dc/elements/1.1/'>
+    <!ENTITY dctermsns 'http://purl.org/dc/terms/'>
+    <!ENTITY dctypens 'http://purl.org/dc/dcmitype/'>
+    <!ENTITY dcamns 'http://purl.org/dc/dcam/'>
+    <!ENTITY skosns 'http://www.w3.org/2004/02/skos/core#'>
+]>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcam="http://purl.org/pnx/" xmlns:dcterms="http://purl.org/pnx/" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:Description rdf:about="http://purl.org/pnx/">
+<dcterms:title xml:lang="en-US">PNX name space</dcterms:title>
+<dcterms:publisher xml:lang="en-US">Ex Libris PNX RDF initiative</dcterms:publisher>
+<dcterms:modified>2014-05-01</dcterms:modified>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/link">
+<rdfs:label xml:lang="en-US">Link Class</rdfs:label>
+<rdfs:comment xml:lang="en-US">External links</rdfs:comment>
+<dcterms:description xml:lang="en-US">Class of external typed links including type, url and display label</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/link"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType">
+<rdfs:label xml:lang="en-US">Link Type</rdfs:label>
+<dcterms:description xml:lang="en-US">Type of link</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/type"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+<skos:note xml:lang="en-US">Well defined list of links supported by PNX</skos:note>
+<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#openURL">
+<rdfs:label xml:lang="en-US">Link of type openURL</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type openURL</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#openURL"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type openURL</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#backlink">
+<rdfs:label xml:lang="en-US">Link of type backlink</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type backlink</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#backlink"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type backlink</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktorsrc">
+<rdfs:label xml:lang="en-US">Link of type linktorsrc (link to resource</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktorsrc (link to resource)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktorsrc"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktorsrc (link to resource</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#thumbnail">
+<rdfs:label xml:lang="en-US">Link of type thumbnail</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type thumbnail</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#thumbnail"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type thumbnail</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktotoc">
+<rdfs:label xml:lang="en-US">Link of type linktotoc</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktotoc (link to table of contents)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktotoc"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktotoc (link to table of contents)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktoabstract">
+<rdfs:label xml:lang="en-US">Link of type linktoabstract</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktoabstract (link to abstract)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktotoc"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktoabstract (link to abstract)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#openurlfulltext">
+<rdfs:label xml:lang="en-US">Link of type openurlfulltext</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type openurlfulltext (link to openurl full text)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#openurlfulltext"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type openurlfulltext (link to openurl full text)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#openurlservice">
+<rdfs:label xml:lang="en-US">Link of type openurlfulltext</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type openurlservice (link to openurl service)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#openurlservice"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type openurlservice (link to openurl service)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktoholdings">
+<rdfs:label xml:lang="en-US">Link of type linktoholdings</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktoholdings (link to holdings)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktoholdings"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktoholdings (link to holdings)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktorequest">
+<rdfs:label xml:lang="en-US">Link of type linktorequest</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktorequest (link to ILS request)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktorequest"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktorequest (link to ILS request)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktoreview">
+<rdfs:label xml:lang="en-US">Link of type linktoreview</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktoreview (link to review)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktorequest"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktoreview (link to review)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktoprice">
+<rdfs:label xml:lang="en-US">Link of type linktoprice</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktoprice (link to price)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktoprice"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktoprice (link to price)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#addlink">
+<rdfs:label xml:lang="en-US">Link of type addlink</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type addlink (additonal link)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#addlink"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type addlink (additonal link)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktoholdsavail">
+<rdfs:label xml:lang="en-US">Link of type linktoholdsavail</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktoholdsavail (link to holds available)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktoholdsavail"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktoholdsavail (link to holds available)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktoholdsunavail">
+<rdfs:label xml:lang="en-US">Link of type linktoholdsunavail</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktoholdsavail (link to holds unavailable)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktoholdsunavail"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktoholdsunavail (link to holds unavailable)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktoholdsnotexist">
+<rdfs:label xml:lang="en-US">Link of type linktoholdsnotexist</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktoholdsnotexist (link to holds not exist)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktoholdsnotexist"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktoholdsnotexist (link to holds not exist)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktouc">
+<rdfs:label xml:lang="en-US">Link of type linktouc</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktouc (link to ????)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktouc"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktouc (link to ????)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktofa">
+<rdfs:label xml:lang="en-US">Link of type linktofa</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktofa (link to finding aid)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktofa"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktofa (link to finding aid)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#linktoexcerpt">
+<rdfs:label xml:lang="en-US">Link of type linktoexcerpt</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type linktoexcerpt (link to excerpt)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#linktoexcerpt"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type linktoexcerpt (link to excerpt)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#gbsabout">
+<rdfs:label xml:lang="en-US">Link of type gbsabout</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type gbsabout (Google Books Full)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#gbsabout"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type gbsabout (Google Books Full)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#gbsfull">
+<rdfs:label xml:lang="en-US">Link of type gbsfull</rdfs:label>
+<dcterms:description xml:lang="en-US">Link of type gbsabout (Google Books About)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#gbsfull"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Link of type gbsfull (Google Books About)</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/linkType#url">
+<rdfs:label xml:lang="en-US">Generic URL</rdfs:label>
+<dcterms:description xml:lang="en-US">Generic URL</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/linkType#url"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Generic URL</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/identifier">
+<rdfs:label xml:lang="en-US">Identifier Class</rdfs:label>
+<rdfs:comment xml:lang="en-US">External identifiers</rdfs:comment>
+<dcterms:description xml:lang="en-US">Class of external typed identifiers including type and id.</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/identifier"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType">
+<rdfs:label xml:lang="en-US">Identifier Type</rdfs:label>
+<dcterms:description xml:lang="en-US">Type of identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+<skos:note xml:lang="en-US">External typed identifiers including type and id. There may types outside of the pnx vocabulary.</skos:note>
+<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#pnx">
+<rdfs:label xml:lang="en-US">PNX identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">PNX identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#pnx"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">PNX identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#frbrid">
+<rdfs:label xml:lang="en-US">PNX identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">PNX FRBR identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#frbrid"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">PNX FRBR identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#isbn">
+<rdfs:label xml:lang="en-US">isbn identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">isbn identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#isbn"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">isbn identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#issn">
+<rdfs:label xml:lang="en-US">issn identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">issn identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#issn"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">issn identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#pmid">
+<rdfs:label xml:lang="en-US">pmid identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">pmid identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#pmid"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">pmid identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#lccn">
+<rdfs:label xml:lang="en-US">lccn identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">lccn identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#lccn"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">lccn identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#doi">
+<rdfs:label xml:lang="en-US">doi identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">doi identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#doi"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">doi identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#lccid">
+<rdfs:label xml:lang="en-US">lccid identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">lccid identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#lccid"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">lccid identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#hdlid">
+<rdfs:label xml:lang="en-US">hdlid identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">lccid identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#hdlid"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">hdlid identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#artnum">
+<rdfs:label xml:lang="en-US">artnum identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">lccid identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#artnum"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">artnum identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#bici">
+<rdfs:label xml:lang="en-US">artnum identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">bici identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#bici"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">bici identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#SFXobjectID">
+<rdfs:label xml:lang="en-US">SFXobjectID identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">SFX object ID identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#SFXobjectID"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">SFX object ID identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#ericid">
+<rdfs:label xml:lang="en-US">ericid identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">ericid identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#ericid"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">ericid identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#bibcode">
+<rdfs:label xml:lang="en-US">bibcode identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">bibcode identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#bibcode"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">bibcode identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/idType#lccn">
+<rdfs:label xml:lang="en-US">lccn identifier</rdfs:label>
+<dcterms:description xml:lang="en-US">lccn identifier</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/idType#lccn"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">lccn identifier</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/holding">
+<rdfs:label xml:lang="en-US">Holding Class</rdfs:label>
+<rdfs:comment xml:lang="en-US">Holding</rdfs:comment>
+<dcterms:description xml:lang="en-US">Holding class</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/holding"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/library">
+<rdfs:label xml:lang="en-US">Library</rdfs:label>
+<dcterms:description xml:lang="en-US">Library</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/library"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+<skos:note xml:lang="en-US">Library (sub organization) in the Organization</skos:note>
+<rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/subLocation">
+<rdfs:label xml:lang="en-US">Sub-location</rdfs:label>
+<dcterms:description xml:lang="en-US">Sub location of the holing in the library</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/subLocation"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+<skos:note xml:lang="en-US">Sub location of the holing in the library</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/availabilityStatus">
+<rdfs:label xml:lang="en-US">Availability Status</rdfs:label>
+<dcterms:description xml:lang="en-US">Availability status enumeration</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/availabilityStatus"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+<skos:note xml:lang="en-US">Well defined vocabulary: available, unavailable, check_holdings</skos:note>
+<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/availabilityStatus#available">
+<rdfs:label xml:lang="en-US">Item is available</rdfs:label>
+<dcterms:description xml:lang="en-US">Item is available</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/availabilityStatus#available"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Item is available</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/availabilityStatus#unavailable">
+<rdfs:label xml:lang="en-US">Item is unavailable</rdfs:label>
+<dcterms:description xml:lang="en-US">Item is available</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/availabilityStatus#unavailable"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Item is unavailable</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/availabilityStatus#check_holdings">
+<rdfs:label xml:lang="en-US">Check item availability</rdfs:label>
+<dcterms:description xml:lang="en-US">Item availability must be checked</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/availabilityStatus#check_holdings"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Item availability must be checked</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/numberOfItems">
+<rdfs:label xml:lang="en-US">Number of Items</rdfs:label>
+<dcterms:description xml:lang="en-US">Number of items</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/numberOfItems"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+<skos:note xml:lang="en-US">Number of items</skos:note>
+<rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/bibo/number"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/peerReviewed">
+<rdfs:label xml:lang="en-US">Peer reviewed</rdfs:label>
+<dcterms:description xml:lang="en-US">Peer reviewed (yes/no)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/peerReviewed"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+<skos:note xml:lang="en-US">Peer reviewed (yes/no)</skos:note>
+<rdfs:subPropertyOf rdf:resource="http://purl.org/ontology/bibo/number"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/peerReviewed#yes">
+<rdfs:label xml:lang="en-US">Is peer reviewed</rdfs:label>
+<dcterms:description xml:lang="en-US">Is peer reviewed</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/peerReviewed#yes"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Is peer reviewed</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/peerReviewed#no">
+<rdfs:label xml:lang="en-US">Is not peer reviewed</rdfs:label>
+<dcterms:description xml:lang="en-US">Is not peer reviewed</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/peerReviewed#no"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Is not peer reviewed</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/openAccess">
+<rdfs:label xml:lang="en-US">Open Access</rdfs:label>
+<dcterms:description xml:lang="en-US">Open access (Open_Access, Gold, Green)</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/openAccess"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+<skos:note xml:lang="en-US">Open access (Open_Access, Gold, Green</skos:note>
+<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/openAccess#Open_Access">
+<rdfs:label xml:lang="en-US">Is open access</rdfs:label>
+<dcterms:description xml:lang="en-US">Is open access</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/openAccess#Open_Access"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Is open access</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/openAccess#Gold">
+<rdfs:label xml:lang="en-US">Is gold open access</rdfs:label>
+<dcterms:description xml:lang="en-US">Is gold open access</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/openAccess#Gold"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Is gold open access</skos:note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/pnx/openAccess#Green">
+<rdfs:label xml:lang="en-US">Is green open access</rdfs:label>
+<dcterms:description xml:lang="en-US">Is green open access</dcterms:description>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/pnx/openAccess#Green"/>
+<dcterms:issued>2014-05-01</dcterms:issued>
+<dcterms:modified>2014-05-01</dcterms:modified>
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+<skos:note xml:lang="en-US">Is green open access</skos:note>
+</rdf:Description>
+
+</rdf:RDF>
