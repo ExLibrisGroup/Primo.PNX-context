@@ -13,7 +13,7 @@
     "format":       "http://purl.org/dc/terms/format",
     "description":  "http://purl.org/dc/terms/description",
     "abstract":     "http://purl.org/dc/terms/abstract",
-    "language":   { "@id":, http://purl.org/dc/terms/language", "@type": "@id" },
+    "language":   { "@id":, "http://purl.org/dc/terms/language", "@type": "@id" },
     "subject":      "http://purl.org/dc/terms/subject",
     "LCSH":         "http://purl.org/dc/terms/LCSH",
     "MESH":         "http://purl.org/dc/terms/MESH",
