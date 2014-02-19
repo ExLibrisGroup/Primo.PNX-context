@@ -42,7 +42,7 @@
     "pageStart":    "http://purl.org/ontology/bibo/pageStart",
     "pageEnd":      "http://purl.org/ontology/bibo/pageEnd",
     "pages":        "http://purl.org/ontology/bibo/pages",
-    "edition":      "http://purl.org/ontology/bibo/edition"
+    "edition":      "http://purl.org/ontology/bibo/edition",
     
     "issn":         "http://prismstandard.org/namespaces/1.2/basic/issn",
     "eissn":        "http://prismstandard.org/namespaces/1.2/basic/eIssn",
@@ -53,7 +53,7 @@
     
     "link":               "http://purl.org/pnx/link",
     "linkURL":            "http://purl.org/ontology/bibo/uri", 
-    "linkType":           "http://purl.org/pnx/linkType"
+    "linkType":           "http://purl.org/pnx/linkType",
     "displayLabel":       "http://prismstandard.org/namespaces/1.2/pcv/label",
     
     "identifier":         "http://purl.org/pnx/identifier",
