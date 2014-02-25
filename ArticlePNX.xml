@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+  <control>
+    <sourcerecordid>10.1093/jpepsy/jsq081</sourcerecordid>
+    <sourceid>oxford</sourceid>
+    <recordid>oxford10.1093/jpepsy/jsq081</recordid>
+    <sourceformat>XML</sourceformat>
+    <sourcesystem>Other</sourcesystem>
+  </control>
+  <display>
+    <type>article</type>
+    <title>Assessing Psychological Well-Being in Mothers of Children with Disability: Evaluation of the Parenting Morale Index and Family Impact of Childhood Disability Scale</title>
+    <creator>Benzies, Karen M ; Trute, Barry ; Worthington, Catherine ; Reddon, John ; Keown, Leslie - Anne ; Moore, Melanie</creator>
+    <ispartof>Journal of Pediatric Psychology, 2011, Vol. 36(5), pp.506-516</ispartof>
+    <identifier>&lt;b&gt;ISSN: &lt;/b&gt;0146-8693 ; &lt;b&gt;E-ISSN: &lt;/b&gt;1465-735X ; &lt;b&gt;DOI: &lt;/b&gt;10.1093/jpepsy/jsq081</identifier>
+    <subject>Adjustment ; Children ; Coping Skills ; Developmental Disabilities ; Family Functioning ; Parents ; Psychosocial Functioning</subject>
+    <description>Objective ?Process model of stress and coping guided psychometric assessment of two brief measures of psychological well-being: Parenting Morale Index (PMI); Family Impact of Childhood Disability (FICD) scale.? Methods ?Canadian mothers ( N ?&amp;equals;?195) of children with disability (CWD) completed PMI, FICD, and validation measures (Brief Family Assessment Measure [FAM], Personal Well-Being Index, Positive and Negative Affect Schedule, General Self-Efficacy Scale, Social Desirability Scale) via computer-assisted telephone interview. Of these, 154 completed additional validation measures (Center for Epidemiological Studies—Depression Scale, Parenting Stress Index, Family Hardiness Index, Brief FAM) 1 year later. Results ?Factor structures of PMI and FICD were supported; both demonstrated internal consistency, temporal stability, and convergent and discriminant validity. After 1 year, PMI and FICD jointly predicted depressive symptoms, parenting stress, family hardiness, and family adjustment.? Conclusion ?PMI and FICD can identify mothers of CWD at risk for poor psychological well-being to increase the specificity of supports.</description>
+    <source>Oxford University Press</source>
+    <lds50>peer_reviewed</lds50>
+  </display>
+  <links>
+    <openurl>$$Topenurl_article</openurl>
+    <linktorsrc>$$Uhttp://dx.doi.org/10.1093/jpepsy/jsq081$$EView_full_text_in_Oxford_University_Press</linktorsrc>
+    <openurlfulltext>$$Topenurlfull_article</openurlfulltext>
+  </links>
+  <facets>
+    <creationdate>2011</creationdate>
+    <topic>Adjustment</topic>
+    <topic>Children</topic>
+    <topic>Coping Skills</topic>
+    <topic>Developmental Disabilities</topic>
+    <topic>Family Functioning</topic>
+    <topic>Parents</topic>
+    <topic>Psychosocial Functioning</topic>
+    <collection>Oxford Journals Open Access</collection>
+    <prefilter>articles</prefilter>
+    <rsrctype>articles</rsrctype>
+    <creatorcontrib>Benzies, Karen M</creatorcontrib>
+    <creatorcontrib>Trute, Barry</creatorcontrib>
+    <creatorcontrib>Worthington, Catherine</creatorcontrib>
+    <creatorcontrib>Reddon, John</creatorcontrib>
+    <creatorcontrib>Keown, Leslie - Anne</creatorcontrib>
+    <creatorcontrib>Moore, Melanie</creatorcontrib>
+    <jtitle>Journal Of Pediatric Psychology</jtitle>
+    <toplevel>peer_reviewed</toplevel>
+  </facets>
+  <addata>
+    <atitle>Assessing Psychological Well-Being in Mothers of Children with Disability: Evaluation of the Parenting Morale Index and Family Impact of Childhood Disability Scale</atitle>
+    <au>Benzies, Karen M.</au>
+    <au>Trute, Barry</au>
+    <au>Worthington, Catherine</au>
+    <au>Reddon, John</au>
+    <au>Keown, Leslie-Anne</au>
+    <au>Moore, Melanie</au>
+    <aulast>Trute</aulast>
+    <aulast>Worthington</aulast>
+    <aulast>Reddon</aulast>
+    <aulast>Keown</aulast>
+    <aulast>Moore</aulast>
+    <aulast>Benzies</aulast>
+    <aufirst>Karen M.</aufirst>
+    <aufirst>Barry</aufirst>
+    <aufirst>Catherine</aufirst>
+    <aufirst>John</aufirst>
+    <aufirst>Leslie-Anne</aufirst>
+    <aufirst>Melanie</aufirst>
+    <jtitle>Journal of Pediatric Psychology</jtitle>
+    <date>20110906</date>
+    <risdate>20110906</risdate>
+    <volume>36</volume>
+    <issue>5</issue>
+    <spage>506</spage>
+    <epage>516</epage>
+    <pages>506-516</pages>
+    <issn>0146-8693</issn>
+    <eissn>1465-735X</eissn>
+    <format>article</format>
+    <genre>article</genre>
+    <ristype>JOUR</ristype>
+    <abstract>Objective ?Process model of stress and coping guided psychometric assessment of two brief measures of psychological well-being: Parenting Morale Index (PMI); Family Impact of Childhood Disability (FICD) scale.? Methods ?Canadian mothers ( N ?&amp;equals;?195) of children with disability (CWD) completed PMI, FICD, and validation measures (Brief Family Assessment Measure [FAM], Personal Well-Being Index, Positive and Negative Affect Schedule, General Self-Efficacy Scale, Social Desirability Scale) via computer-assisted telephone interview. Of these, 154 completed additional validation measures (Center for Epidemiological Studies—Depression Scale, Parenting Stress Index, Family Hardiness Index, Brief FAM) 1 year later. Results ?Factor structures of PMI and FICD were supported; both demonstrated internal consistency, temporal stability, and convergent and discriminant validity. After 1 year, PMI and FICD jointly predicted depressive symptoms, parenting stress, family hardiness, and family adjustment.? Conclusion ?PMI and FICD can identify mothers of CWD at risk for poor psychological well-being to increase the specificity of supports.</abstract>
+    <pub>Oxford University Press</pub>
+    <doi>10.1093/jpepsy/jsq081</doi>
+  </addata>
+</record>
