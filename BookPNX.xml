@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+  <control>
+    <sourcerecordid>etext22160</sourcerecordid>
+    <sourceid>project_gutenberg</sourceid>
+    <recordid>project_gutenbergetext22160</recordid>
+    <sourcesystem>Other</sourcesystem>
+  </control>
+  <display>
+    <type>book</type>
+    <title>Studien und Plaudereien First Series</title>
+    <creator>Stern, Sigmon Martin</creator>
+    <creator>Barak Hecht</creator>
+    <creationdate>&lt;b&gt;Release Date: &lt;/b&gt;2007-07-27</creationdate>
+    <subject>German language -- Conversation and phrase books ; German language -- Composition and exercises</subject>
+    <language>deu</language> 
+    <source>Project Gutenberg</source>
+    <availlibrary>$$IUVA$$LPRB$$Savailable$$32$$40$$5N$$60$$XUVA50$$YPRB</availlibrary>
+  </display>
+  <links>
+    <openurl>$$Topenurl_article</openurl>
+    <backlink>$$Uhttp://www.gutenberg.org/ebooks/22160$$EView_record_in_Project_Gutenberg</backlink>
+    <linktorsrc>$$Uhttp://www.gutenberg.org/ebooks/22160#download$$EView_fulltext_in_Project_Gutenberg</linktorsrc>
+    <openurlfulltext>$$Topenurlfull_article</openurlfulltext>
+  </links>
+  <facets>
+    <language>deu</language>
+    <topic>German language -- Conversation and phrase books</topic>
+    <topic>German language -- Composition and exercises</topic>
+    <collection>Project Gutenberg</collection>
+    <prefilter>books</prefilter>
+    <rsrctype>books</rsrctype>
+    <creatorcontrib>Stern, Sigmon Martin</creatorcontrib>
+  </facets>
+  <addata>
+	<isbn>1402894626</isbn>
+	<abstract>my first abstract</abstract>
+	<abstract>my second abstract</abstract>
+        <au>Stern, Sigmon Martin</au>
+	<au>Barak Hecht</au>
+    	<btitle>Studien und Plaudereien First Series</btitle>
+    	<date>20070727</date>
+   	<genre>book</genre>
+    	<ristype>BOOK</ristype>
+    	<url>http://www.gutenberg.org/ebooks/22160</url>
+	<doi>123243</doi>
+	<pub>Shmolik</pub>
+  </addata>
+</record>
