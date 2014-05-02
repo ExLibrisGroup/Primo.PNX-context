@@ -1,4 +1,5 @@
 {
+  "@context": {
     "xsd":          "http://www.w3.org/2001/XMLSchema#",
     
     "modified":     "http://purl.org/dc/terms/modified",
@@ -69,3 +70,4 @@
     "availabilityDate":   "http://purl.org/ontology/daia/timestamp",
     "numberOfItems":     {"id": "http://purl.org/pnx/numberOfItems", "type": "xsd:integer"}
   }
+}
