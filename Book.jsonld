@@ -1,0 +1,40 @@
+{
+    "@context": "http://purl.org/pnx",
+    "@id": "http://myprimo/pnx/project_gutenbergetext22160.rdf",
+    "@type": "book",
+    
+    "modified": "2014-01-29 16:19:43Z",
+    "type": "book",
+    "title": "Studien und Plaudereien First Series",
+    "creator": [
+       "Stern, Sigmon Martin",
+       "Barak Hecht"
+       ],
+    "date": "2007",
+    "publisher": "Burlington, VT : Ashgate",
+    "language": "http://id.loc.gov/vocabulary/iso639-2/deu",
+    "format": "online_resources",
+    "subject": [
+       "German language -- Conversation and phrase books",
+       "German language -- Composition and exercises"
+       ],
+    "isbn10": "1402894626",
+    "doi": "123243",
+    
+    "link": [
+       {"@id": "_:l01", "type": "http://purl.org/pnx/linkType#backlink", "url":"http://www.gutenberg.org/ebooks/22160", "displayLabel": "View record in Project Gutenberg"},
+       {"@id": "_:l02", "type": "http://purl.org/pnx/linkType#linktorsrc", "url": "http://www.gutenberg.org/ebooks/22160#download", "displayLabel": "View fulltext in Project Gutenberg"}
+       ],
+
+    "identifier": [
+       {"@id": "_:id01", "type":"http://purl.org/pnx/idType#pnx","id":"project_gutenbergetext22160"},
+       {"@id": "_:id02", "type":"http://purl.org/pnx/idType#doi","id":"123243"}
+       ],
+    
+    "holding": { "@id": "_:nyu_aleph003859769/UVA/PRB", 
+                 "organization": "UVA",
+                 "library": "PRB",
+                 "availabilityStatus": "http://purl.org/pnx/availabilityStatus#available",
+                 "availabilityDate": "2014-01-29 16:19:43Z",
+                 "numberOfItems": "2"}
+}
