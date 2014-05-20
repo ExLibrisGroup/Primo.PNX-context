@@ -46,6 +46,8 @@
     "series":       "bibo:Series",  
     "collection":   "bibo:Collection",
     "journal":      "bibo:Journal",
+    "issn":         "bibo:issn",
+    "eissn":        "bibo:eIssn",
     "volume":       "bibo:volume",
     "issue":        "bibo:issue",    
     "pageStart":    "bibo:pageStart",
@@ -53,8 +55,6 @@
     "pages":        "bibo:pages",
     "edition":      "bibo:edition",
     
-    "issn":         "prism:issn",
-    "eissn":        "prism:eIssn",
     "doi":          "prism:doi",
     
     "peerReviewed":       "pnx:peerReviewed",  
