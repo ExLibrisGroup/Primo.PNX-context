@@ -43,8 +43,10 @@
     "language": "http://id.loc.gov/vocabulary/iso639-2/deu", 
     
     "link":       {"@id": "_:l01",  "linkType": "http://purl.org/pnx/linkType#linktoprsrc","linkURL": "http://dx.doi.org/10.1093/jpepsy/jsq081", "displayLabel": "View full text in Oxford University Press"},    
-    "identifier": {"@id": "_:id01", "idType": "http://purl.org/pnx/idType#doi",  "id":".1093/jpepsy/jsq081"},
-    "identifier": {"@id": "_:id02", "idType": "http://purl.org/pnx/idType#issn", "id":"0146-8693"},
-    "identifier": {"@id": "_:id03", "idType": "http://purl.org/pnx/idType#issn", "id":"1465-735X"},
-    "identifier": {"@id": "_:id04", "idType": "http://purl.org/pnx/idType#pnx",  "id":"myinst.1093/jpepsy/jsq081"}
+    "identifier": [
+       {"@id": "_:id01", "idType": "http://purl.org/pnx/idType#doi",  "id":".1093/jpepsy/jsq081"},
+       {"@id": "_:id02", "idType": "http://purl.org/pnx/idType#issn", "id":"0146-8693"},
+       {"@id": "_:id03", "idType": "http://purl.org/pnx/idType#issn", "id":"1465-735X"},
+       {"@id": "_:id04", "idType": "http://purl.org/pnx/idType#pnx",  "id":"myinst.1093/jpepsy/jsq081"}
+     ]  
 }
