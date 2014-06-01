@@ -1,6 +1,6 @@
 {
     "@context": "http://purl.org/pnx",
-    "@id": "http://myprimo/pnx/project_gutenbergetext22160.rdf",
+    "@id": "http://myPrimo/rest/PNX/myInstitution/L/project_gutenbergetext22160.rdf",
     "@type": "book",
     
     "modified": "2014-01-29 16:19:43Z",
