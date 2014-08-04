@@ -1,6 +1,6 @@
 {
     "@context": "http://purl.org/pnx",
-    "@id": "http://myPrimo/rest/PNX/myInstitution/L/myinst.1093/jpepsy/jsq081.jsonld",
+    "@id": "http://myPrimo/rest/PNX/myInstitution/L/myinst.1093/jpepsy/jsq081",
     "@type": "article",
     
     "modified": "2014-01-29 16:19:43Z",
@@ -47,6 +47,6 @@
        {"@id": "_:id01", "idType": "http://purl.org/pnx/idType#doi", "id":".1093/jpepsy/jsq081"},
        {"@id": "_:id02", "idType": "http://purl.org/pnx/idType#issn", "id":"0146-8693"},
        {"@id": "_:id03", "idType": "http://purl.org/pnx/idType#issn", "id":"1465-735X"},
-       {"@id": "_:id04", "idType": "http://purl.org/pnx/idType#pnx", "id":"http://myPrimo/rest/PNX/myInstitution/L/myinst.1093/jpepsy/jsq081.jsonld"}
+       {"@id": "_:id04", "idType": "http://purl.org/pnx/idType#pnx", "id":"http://myPrimo/rest/PNX/myInstitution/L/myinst.1093/jpepsy/jsq081"}
      ]
 }
