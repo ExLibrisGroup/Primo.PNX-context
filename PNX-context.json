@@ -8,6 +8,7 @@
     "prismpcv":     "http://prismstandard.org/namespaces/1.2/pcv/",
     "daia":         "http://purl.org/ontology/daia/",
     "foaf":         "http://xmlns.com/foaf/0.1/",
+    "vivo":         "http://vivoweb.org/ontology/core/",
     "pnx":          "http://purl.org/pnx/",
     
     "modified":     "dct:modified",
