@@ -23,7 +23,7 @@
     "format":       "dct:format",
     "description":  "dct:description",
     "abstract":     "dct:abstract",
-    "language":   { "@id":, "dct:language", "@type": "@id" },
+    "language":   { "@id": "dct:language", "@type": "@id" },
     "subject":      "dct:subject",
     "LCSH":         "dct:LCSH",
     "MESH":         "dct:MESH",
@@ -77,6 +77,6 @@
     "callNumber":         "daia:label",
     "availabilityStatus": "pnx:availabilityStatus",
     "availabilityDate":   "daia:timestamp",
-    "numberOfItems":     {"id": "pnx:numberOfItems", "type": "xsd:integer"}
+    "numberOfItems":     {"@id": "pnx:numberOfItems", "type": "xsd:integer"}
   }
 }  
